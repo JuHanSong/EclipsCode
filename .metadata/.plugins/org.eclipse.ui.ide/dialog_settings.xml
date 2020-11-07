@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+	</section>
+	<section name="org.eclipse.text.quicksearch.internal.ui.QuickSearchDialog.DIALOG_SETTINGS">
+		<item key="LAST_QUERY" value="import java.util.Scanner;&#x0D;&#x0A;&#x0D;&#x0A;public class Main {&#x0D;&#x0A;&#x0D;&#x0A;&#x09;public static void main(String[] args) {&#x0D;&#x0A;&#x09;&#x09;&#x0D;&#x0A;&#x09;&#x09;Scanner scA = new Scanner(System.in);&#x0D;&#x0A;&#x09;&#x09;int A =  scA.nextInt();&#x0D;&#x0A;&#x09;&#x09;Scanner scB = new Scanner(System.in);&#x0D;&#x0A;&#x09;&#x09;int B = scB.nextInt();&#x0D;&#x0A;&#x09;&#x09;&#x0D;&#x0A;&#x09;&#x09;if(A&gt;=1 &amp;&amp; A&lt; 10000 &amp;&amp; B &gt;=1 &amp;&amp; B &lt;10000) {&#x0D;&#x0A;&#x09;&#x09;System.out.println(A+B);&#x0D;&#x0A;&#x09;&#x09;System.out.println(A-B);&#x0D;&#x0A;&#x09;&#x09;System.out.println(A*B);&#x0D;&#x0A;&#x09;&#x09;System.out.println(A/B);&#x0D;&#x0A;&#x09;&#x09;System.out.println(A%B);&#x0D;&#x0A;&#x09;&#x09;}&#x0D;&#x0A;&#x09;}&#x0D;&#x0A;&#x0D;&#x0A;}&#x0D;&#x0A;"/>
+		<item key="PATH_FILTER" value=""/>
+		<item key="CASE_SENSITIVE" value="true"/>
+		<item key="KEEP_OPEN" value="false"/>
+		<list key="COLUMN_WIDTHS">
+			<item value="40"/>
+			<item value="400"/>
+			<item value="120"/>
+		</list>
+		<list key="SASH_WEIGHTS">
+			<item value="714"/>
+			<item value="285"/>
+		</list>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="668"/>
+			<item key="DIALOG_Y_ORIGIN" value="195"/>
+			<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+		</section>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\jhson\Desktop\111.zip"/>
+		</list>
+	</section>
+</section>

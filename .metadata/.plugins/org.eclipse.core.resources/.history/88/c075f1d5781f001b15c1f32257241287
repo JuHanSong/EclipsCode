@@ -1,0 +1,26 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Testr {
+	
+	public static void main(String[] args) {
+		String[] kakao = {"무지", "네오", "어피치", "라이언", "제이지"};
+		Scanner sc = new Scanner(System.in);
+		System.out.println("저장된 카카오 친구: " + Arrays.toString(kakao));
+		System.out.println("수정하실 카카오 친구를 입력하세요.");
+		System.out.print("> ");
+		String name = sc.next();
+		int idx = 0;
+		
+		for(idx = 0; idx <kakao.length; idx ++) {
+			if(kakao[idx].equals(name)) {
+				String empty = kakao[idx];
+				kakao[idx] = name;
+				name = kakao[idx];
+			}
+		}
+		System.out.println(Arrays.toString(kakao));
+		
+		
+	}
+}

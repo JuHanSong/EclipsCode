@@ -1,0 +1,17 @@
+package model;
+
+
+import java.util.ArrayList;
+
+import main.*;
+
+public class HashData extends Main {
+	
+	public void B() {
+		ArrayList A = new ArrayList();
+		A.remove(1);
+		
+	}
+	
+
+}

@@ -1,0 +1,11 @@
+package objectTest;
+
+public class Pig extends Animal{
+	
+	@Override
+	public void sound() {
+		System.out.println("꿀 꿀 꿀");
+	}
+	
+	
+}
