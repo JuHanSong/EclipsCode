@@ -1,0 +1,15 @@
+
+public class Warrior extends Palyer {
+
+	int rage;
+	
+	public Warrior() {
+		super(name);
+		
+		
+	}
+	
+	
+	
+	
+}

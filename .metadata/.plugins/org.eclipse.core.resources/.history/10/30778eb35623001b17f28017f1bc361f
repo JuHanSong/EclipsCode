@@ -1,0 +1,14 @@
+
+public class Calculrator {
+	
+	int calcRect(int len) {
+		return len * len;
+	}
+	int calcRect(int width, int height) {
+		return width * height;
+	}
+	int calcRect(int ceil, int floor, int height) {
+		return (ceil + floor) * height / 2;
+	}
+	
+}

@@ -1,0 +1,17 @@
+
+public class Test extends Calculrator {
+
+	public static void main(String[] args) {
+	
+		Calculrator c = new Calculrator();
+		
+		int result1 = c.calcRect(6);
+		int result2 = c.calcRect(10, 20);
+		int result3 = c.calcRect(5, 15, 7);
+		System.out.println("1 = " + result1);
+		System.out.println("2 = " + result2);
+		System.out.println("3 = " + result3);
+		
+	}
+
+}
