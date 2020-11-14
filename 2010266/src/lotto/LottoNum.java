@@ -16,9 +16,9 @@ public class LottoNum {
 			if(lottoList.contains(creatNum) == false) {
 				lottoList.add(creatNum);
 			}else
-				System.out.println("중복된 숫자 : " + creatNum);
-				
+				System.out.println("중복된 숫자 : " + creatNum);	
 		}
+		
 		Collections.sort(lottoList);
 		System.out.println("1등번호" + lottoList);
 		
